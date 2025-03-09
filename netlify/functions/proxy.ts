@@ -1,10 +1,14 @@
 import { Context } from "@netlify/edge-functions";
 import DeepSeekr1 from "./DeepSeek-R1";
 import DeepSeekv3 from "./DeepSeek-V3";
+import DeepSeekv332b from "./DeepSeek-V3-32B";
+
 // 全局范围定义 supportedModels（支持的模型） 对象
 const supportedModels = {
     'deepseek-r1': DeepSeekr1,
-    'deepseek-v3': DeepSeekv3
+    'deepseek-v3': DeepSeekv3,
+    'deepseek-v3-32b': DeepSeekv3
+    
 };
 
 // 全局范围定义 respondJsonMessage 函数
