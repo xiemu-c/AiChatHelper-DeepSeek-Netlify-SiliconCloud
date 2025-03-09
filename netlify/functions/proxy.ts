@@ -1,6 +1,6 @@
 import { Context } from "@netlify/edge-functions";
 import DeepSeekr1 from "./DeepSeek-R1";
-import DeepSeekv3 from "./DeepSeek-v3";
+import DeepSeekv3 from "./DeepSeek-V3";
 // 全局范围定义 supportedModels（支持的模型） 对象
 const supportedModels = {
     'deepseek-r1': DeepSeekr1,
