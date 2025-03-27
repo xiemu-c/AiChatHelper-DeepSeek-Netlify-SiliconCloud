@@ -3,8 +3,8 @@ import DeepSeek from "./DeepSeek";
 
 // 全局范围定义 supportedModels（支持的模型） 对象
 const supportedModels = {
-    'deepseek-r1': DeepSeek,
-    'deepseek-v3': DeepSeek
+    'deepseek-reasoner': DeepSeek,
+    'deepseek-chat': DeepSeek
 };
 
 // 全局范围定义 respondJsonMessage 函数
