@@ -9,7 +9,7 @@ export default class DeepSeek {
     constructor(requestModel: string, requestAuthorization: string, requestMessages: any) {
         this.model = requestModel;
         this.authorization = requestAuthorization;
-        this.url = 'https://qianfan.baidubce.com/v2/chat/completions';
+        this.url = 'https://api.deepseek.com/chat/completions';
         this.formatHeaders();
         try {
             this.formatBody(requestMessages);
